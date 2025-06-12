@@ -27,7 +27,7 @@ puzzle_input = np.array([[ 1 , 2 , 4 , 3 ],
 puzzle = process_input(puzzle_input, n);
 ```
 
-From here, the provided functions map the configurations of the unknown values onto a quantum state and build the Grover circuit which identifies valid solutions to the given puzzle. Finally, it outputs the statevector of this Circuit and converts the solution state back into an array of values, showing the solved Sudoku:
+From here, the provided functions map the configurations of the unknown values onto a quantum state and build the Grover circuit which identifies valid solutions to the given puzzle. Finally, the notebook outputs the statevector of this circuit and converts the solution state back into an array of values, showing the solved Sudoku:
 
 ```
  Possible Solution: 
